@@ -1,0 +1,775 @@
+# Chinese translations for arpl-i18n package.
+# Copyright (C) 2023 THE arpl-i18n'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the arpl-i18n package.
+# ing <wjz304@qq.com>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: arpl-i18n\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-10 21:25+0800\n"
+"PO-Revision-Date: 2023-04-10 21:26+0800\n"
+"Last-Translator: ing <wjz304@qq.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: boot.sh:8 init.sh:159
+msgid "Loader is not configured!"
+msgstr "引导未配置"
+
+#: boot.sh:13 init.sh:43
+msgid "Welcome to %s"
+msgstr ""
+
+#: boot.sh:18
+msgid "BOOTING..."
+msgstr "引导"
+
+#: boot.sh:24
+msgid "DSM zImage changed"
+msgstr "DSM zImage 已更改"
+
+#: boot.sh:27 boot.sh:39 menu.sh:552 menu.sh:578 menu.sh:647 menu.sh:658
+#: menu.sh:687 menu.sh:697 menu.sh:704
+msgid "Error"
+msgstr "错误"
+
+#: boot.sh:28 menu.sh:698
+msgid "zImage not patched:\\n"
+msgstr "zImage打补丁失败:\\n"
+
+#: boot.sh:36
+msgid "DSM Ramdisk changed"
+msgstr "DSM Ramdisk 已更改"
+
+#: boot.sh:40 menu.sh:705
+msgid "Ramdisk not patched:\\n"
+msgstr "Ramdisk打补丁失败:\\n"
+
+#: boot.sh:52
+msgid "Model:"
+msgstr "型号: "
+
+#: boot.sh:53
+msgid "Build:"
+msgstr "版本: "
+
+#: boot.sh:96
+msgid "netif_num is not equal to macX amount, set netif_num to %s"
+msgstr "netif_num不等于macX，将netif_num设置为%s"
+
+#: boot.sh:117
+msgid "Cmdline:\\n"
+msgstr "Cmdline:\\n"
+
+#: boot.sh:121
+msgid "IP"
+msgstr "IP"
+
+#: boot.sh:139
+msgid "Reboot to boot directly in DSM"
+msgstr "重启并直接进入DSM引导"
+
+#: boot.sh:144
+msgid "Loading DSM kernel..."
+msgstr "加载 DSM kernel..."
+
+#: boot.sh:148
+msgid "Warning, running kexec with --noefi param, strange things will happen!!"
+msgstr "警告, 使用'--noefi'参数运行'kexec', 可能有不好的事情发生!!"
+
+#: boot.sh:153
+msgid "Booting..."
+msgstr "引导中..."
+
+#: boot.sh:156
+msgid ""
+"[This interface will not be operational. Please use the http://find.synology."
+"com/ find DSM and connect.]"
+msgstr "该界面已不可操作, 请通过 http://find.synology.com/ 查找DSM并链接."
+
+#: init.sh:17 init.sh:21
+msgid "Loader disk not found!"
+msgstr "引导磁盘未找到"
+
+#: init.sh:34 init.sh:35 init.sh:36
+msgid "Can't mount %s"
+msgstr "挂载 %s 失败"
+
+#: init.sh:104
+msgid "Setting MAC to %s"
+msgstr "设置MAC为"
+
+#: init.sh:117
+msgid "Loader disk neither USB or DoM"
+msgstr "引导磁盘仅支持 USB 或者 DoM"
+
+#: init.sh:125
+msgid "Loader disk:"
+msgstr "引导盘:"
+
+#: init.sh:138
+msgid "Resizing %s"
+msgstr "重置 %s 大小"
+
+#: init.sh:149
+msgid "Loading keymap"
+msgstr "加载keymap"
+
+#: init.sh:162
+msgid "User requested edit settings."
+msgstr "用户触发编辑设置"
+
+#: init.sh:173
+msgid "Waiting IP."
+msgstr "获取Ip"
+
+#: init.sh:176
+msgid "ERROR"
+msgstr "错误"
+
+#: init.sh:182
+msgid ""
+"OK\\nAccess \\033[1;34mhttp://%s:7681\\033[0m to configure the loader via "
+"web terminal"
+msgstr "OK\\n访问 \\033[1;34mhttp://%s:7681\\033[0m 进入WEB终端进行配置"
+
+#: init.sh:191
+msgid "Call \\033[1;32mmenu.sh\\033[0m to configure loader"
+msgstr "执行 \\033[1;32mmenu.sh\\033[0m 进入设置菜单"
+
+#: init.sh:193
+msgid "User config is on"
+msgstr "用户配置文件位于"
+
+#: init.sh:194
+msgid "Default SSH Root password is"
+msgstr "默认SSH的root密码为"
+
+#: init.sh:200
+msgid ""
+"You have less than 4GB of RAM, if errors occur in loader creation, please "
+"increase the amount of memory."
+msgstr "您的RAM不足4GB, 如果在创建引导时出现错误，请增加内存."
+
+#: menu.sh:72
+msgid "Model"
+msgstr "型号"
+
+#: menu.sh:73
+msgid "Reading models"
+msgstr "读取型号"
+
+#: menu.sh:98
+msgid "Disable flags restriction"
+msgstr "禁用标志限制"
+
+#: menu.sh:99
+msgid "Show beta models"
+msgstr "显示测试型号"
+
+#: menu.sh:100
+msgid "Choose the model"
+msgstr "选择型号"
+
+#: menu.sh:138
+msgid "Choose a build number"
+msgstr "选择版本"
+
+#: menu.sh:149 menu.sh:153
+msgid "Build Number"
+msgstr "版本"
+
+#: menu.sh:150
+msgid ""
+"This version does not support UEFI startup, Please select another version or "
+"switch the startup mode."
+msgstr "该版本不支持UEFI启动, 请选择其他版本或者切换启动模式."
+
+#: menu.sh:154
+msgid "Reconfiguring Synoinfo, Addons and Modules"
+msgstr "重新配置 Syninfo, 插件和模块"
+
+#: menu.sh:187 menu.sh:236 menu.sh:355 menu.sh:454 menu.sh:845 menu.sh:990
+msgid "Choose a option"
+msgstr "设置"
+
+#: menu.sh:188
+msgid "Generate a random serial number"
+msgstr "生成随机SN"
+
+#: menu.sh:189
+msgid "Enter a serial number"
+msgstr "输入SN"
+
+#: menu.sh:197
+msgid "Please enter a serial number "
+msgstr "请输入SN "
+
+#: menu.sh:206 menu.sh:938
+msgid "Alert"
+msgstr "警告"
+
+#: menu.sh:207
+msgid "Invalid serial, continue?"
+msgstr "SN无效, 是否继续?"
+
+#: menu.sh:237
+msgid "Add an addon"
+msgstr "添加插件"
+
+#: menu.sh:238
+msgid "Delete addon(s)"
+msgstr "删除插件(s)"
+
+#: menu.sh:239
+msgid "Show user addons"
+msgstr "显示用户插件"
+
+#: menu.sh:240
+msgid "Show all available addons"
+msgstr "显示所有可用插件"
+
+#: menu.sh:241
+msgid "Download a external addon"
+msgstr "下载外部插件"
+
+#: menu.sh:242 menu.sh:352 menu.sh:450 menu.sh:735 menu.sh:850 menu.sh:995
+#: menu.sh:1207
+msgid "Exit"
+msgstr "退出"
+
+#: menu.sh:253
+msgid "No available addons to add"
+msgstr "没有可用的插件可添加"
+
+#: menu.sh:257
+msgid "Select an addon"
+msgstr "选择插件"
+
+#: menu.sh:262
+msgid "Params"
+msgstr "参数"
+
+#: menu.sh:263
+msgid "Type a opcional params to addon"
+msgstr "输入插件的加载参数"
+
+#: menu.sh:272
+msgid "No user addons to remove"
+msgstr "没有要删除的用户插件"
+
+#: menu.sh:280
+msgid "Select addon to remove"
+msgstr "选择要删除的插件"
+
+#: menu.sh:296
+msgid "User addons"
+msgstr "用户插件"
+
+#: menu.sh:309
+msgid "Available addons"
+msgstr "可用插件"
+
+#: menu.sh:313
+msgid "please enter the complete URL to download.\\n"
+msgstr "请输入下载URL.\\n"
+
+#: menu.sh:319 menu.sh:534
+msgid "Downloading %s"
+msgstr "下载 %s 中"
+
+#: menu.sh:322 menu.sh:544 menu.sh:607
+msgid "Error downloading"
+msgstr "下载失败"
+
+#: menu.sh:323
+msgid "Check internet, URL or cache disk space"
+msgstr "请检查internet, URL或磁盘空间"
+
+#: menu.sh:328
+msgid "Success"
+msgstr "下载成功"
+
+#: menu.sh:329
+msgid "Addon '%s' added to loader"
+msgstr "插件 '%s' 添加到引导中"
+
+#: menu.sh:331
+msgid "Invalid addon"
+msgstr "无效插件"
+
+#: menu.sh:332
+msgid "File format not recognized!"
+msgstr "文件格式无法识别!"
+
+#: menu.sh:347
+msgid "Add/edit a cmdline item"
+msgstr "添加/编辑cmdline参数"
+
+#: menu.sh:348
+msgid "Delete cmdline item(s)"
+msgstr "删除cmdline参数(s)"
+
+#: menu.sh:349
+msgid "Define a custom MAC"
+msgstr "自定义MAC"
+
+#: menu.sh:350
+msgid "Show user cmdline"
+msgstr "显示用户cmdline参数"
+
+#: menu.sh:351
+msgid "Show model/build cmdline"
+msgstr "显示型号默认cmdline参数"
+
+#: menu.sh:360 menu.sh:366 menu.sh:396 menu.sh:404 menu.sh:412 menu.sh:414
+#: menu.sh:422
+msgid "User cmdline"
+msgstr "用户cmdline参数"
+
+#: menu.sh:361
+msgid "Type a name of cmdline"
+msgstr "输入参数的名称"
+
+#: menu.sh:367
+msgid "Type a value of '%s' cmdline"
+msgstr "输入 '%s' 参数的值"
+
+#: menu.sh:376
+msgid "No user cmdline to remove"
+msgstr "没有用户参数被删除"
+
+#: menu.sh:384
+msgid "Select cmdline to remove"
+msgstr "选择要删除的参数"
+
+#: menu.sh:397
+msgid "Type a custom MAC address"
+msgstr "输入自定义MAC地址"
+
+#: menu.sh:404
+msgid "Invalid MAC"
+msgstr "无效的MAC"
+
+#: menu.sh:412
+msgid "Changing MAC"
+msgstr "修改MAC"
+
+#: menu.sh:414
+msgid "Renewing IP"
+msgstr "刷新IP"
+
+#: menu.sh:430
+msgid "Model/build cmdline"
+msgstr "型号默认cmdline参数"
+
+#: menu.sh:447
+msgid "Add/edit a synoinfo item"
+msgstr "添加/编辑Synoinfo参数"
+
+#: menu.sh:448
+msgid "Delete synoinfo item(s)"
+msgstr "删除Synoinfo参数(s)"
+
+#: menu.sh:449
+msgid "Show synoinfo entries"
+msgstr "显示Synoinfo参数"
+
+#: menu.sh:459 menu.sh:465 menu.sh:500
+msgid "Synoinfo entries"
+msgstr "Synoinfo参数"
+
+#: menu.sh:460
+msgid "Type a name of synoinfo entry"
+msgstr "输入参数的名称"
+
+#: menu.sh:466
+msgid "Type a value of '%s' synoinfo entry"
+msgstr "输入 '%s' 参数的值"
+
+#: menu.sh:476
+msgid "No synoinfo entries to remove"
+msgstr "没有Synoinfo参数被删除"
+
+#: menu.sh:484
+msgid "Select synoinfo entry to remove"
+msgstr "选择要删除的参数"
+
+#: menu.sh:525
+msgid "%s cached."
+msgstr "%s 已缓存."
+
+#: menu.sh:529
+msgid "Cleaning cache"
+msgstr "清除缓存"
+
+#: menu.sh:545 menu.sh:608
+msgid "Check internet or cache disk space"
+msgstr "请检查internet或磁盘空间"
+
+#: menu.sh:550
+msgid "Checking hash of %s: "
+msgstr "检查 %s 的 hash: "
+
+#: menu.sh:553
+msgid "Hash of pat not match, try again!"
+msgstr "pat的Hash不匹配, 请重试!"
+
+#: menu.sh:557 menu.sh:651 menu.sh:662 menu.sh:673
+msgid "OK"
+msgstr "OK"
+
+#: menu.sh:561
+msgid "Disassembling %s: "
+msgstr "解压 %s: "
+
+#: menu.sh:566
+msgid "Uncompressed tar"
+msgstr "未压缩tar"
+
+#: menu.sh:570
+msgid "Compressed tar"
+msgstr "压缩tar"
+
+#: menu.sh:574
+msgid "Encrypted"
+msgstr "已加密"
+
+#: menu.sh:579
+msgid ""
+"Could not determine if pat file is encrypted or not, maybe corrupted, try "
+"again!"
+msgstr "无法确定pat文件是否加密, 可能已损坏, 请重试!"
+
+#: menu.sh:590
+msgid "Extractor cached."
+msgstr "已存在解密程序."
+
+#: menu.sh:597
+msgid "Downloading old pat to extract synology .pat extractor..."
+msgstr "下载旧 pat, 提取 .pat 解密程序中..."
+
+#: menu.sh:619 menu.sh:639
+msgid "Error extracting"
+msgstr "解压失败"
+
+#: menu.sh:633 menu.sh:636
+msgid "Extracting..."
+msgstr "解压中..."
+
+#: menu.sh:643
+msgid "Checking hash of zImage: "
+msgstr "检查 zImage 的 hash: "
+
+#: menu.sh:648
+msgid "Hash of zImage not match, try again!"
+msgstr "zImage的Hash不匹配, 请重试!"
+
+#: menu.sh:654
+msgid "Checking hash of ramdisk: "
+msgstr "检查 ramdisk 的 hash: "
+
+#: menu.sh:659
+msgid "Hash of ramdisk not match, try again!"
+msgstr "ramdisk的Hash不匹配, 请重试!"
+
+#: menu.sh:665
+msgid "Copying files: "
+msgstr "拷贝文件: "
+
+#: menu.sh:688
+msgid "Addon %s not found!"
+msgstr "插件 %s 未找到!"
+
+#: menu.sh:709 menu.sh:1225
+msgid "Cleaning"
+msgstr "清除中"
+
+#: menu.sh:712
+msgid "Ready!"
+msgstr "已就绪!"
+
+#: menu.sh:725
+msgid "Switch LKM version:"
+msgstr "选择LKM版本:"
+
+#: menu.sh:726 menu.sh:835 menu.sh:861 menu.sh:872 menu.sh:885 menu.sh:891
+msgid "Modules"
+msgstr "模块"
+
+#: menu.sh:729
+msgid "Switch direct boot:"
+msgstr "切换直接启动:"
+
+#: menu.sh:731
+msgid "Edit user config file manually"
+msgstr "编辑用户配置文件"
+
+#: menu.sh:732
+msgid "Try to recovery a DSM installed system"
+msgstr "尝试恢复已安装DSM的系统"
+
+#: menu.sh:733
+msgid "Show SATA(s) # ports and drives"
+msgstr "显示SATA(s) # 端口和驱动器"
+
+#: menu.sh:734
+msgid "Custom dts location:/mnt/p1/model.dts # Need rebuild"
+msgstr "自定义 dts 文件位置:/mnt/p1/model.dts # 需要重新编译"
+
+#: menu.sh:737
+msgid "Advanced"
+msgstr "高级"
+
+#: menu.sh:738 menu.sh:1210
+msgid "Choose the option"
+msgstr "设置"
+
+#: menu.sh:777
+msgid "\\nTotal of ports: %s\\n"
+msgstr "\\n端口总数: %s\\n"
+
+#: menu.sh:778
+msgid ""
+"\\nPorts with color \\Z1red\\Zn as DUMMY, color \\Z2\\Zbgreen\\Zn has drive "
+"connected."
+msgstr "\\n\\Z1红色\\Zn 为模拟端口, \\Z2\\Zb绿色\\Zn 为已驱动的物理端口."
+
+#: menu.sh:790 menu.sh:818 menu.sh:825
+msgid "Try recovery DSM"
+msgstr "尝试恢复DSM系统"
+
+#: menu.sh:791
+msgid "Trying to recovery a DSM installed system"
+msgstr "尝试恢复已安装的DSM系统中"
+
+#: menu.sh:812
+msgid "Found a installation:\\nModel: %s\\nBuildnumber: %s"
+msgstr "找到已安装:\\n型号:  %s\\n版本: %s"
+
+#: menu.sh:816
+msgid "\\nSerial: %s"
+msgstr "\\nSN: %s"
+
+#: menu.sh:826
+msgid "Unfortunately I couldn't mount the DSM partition!"
+msgstr "很遗憾, 我无法挂载DSM分区!"
+
+#: menu.sh:836
+msgid "Reading modules"
+msgstr "读取模块中"
+
+#: menu.sh:846
+msgid "Show selected modules"
+msgstr "显示已加载的模块"
+
+#: menu.sh:847
+msgid "Select all modules"
+msgstr "选择所有模块"
+
+#: menu.sh:848
+msgid "Deselect all modules"
+msgstr "取消所有模块"
+
+#: menu.sh:849
+msgid "Choose modules to include"
+msgstr "选择要加载的模块"
+
+#: menu.sh:858
+msgid "User modules"
+msgstr "模块"
+
+#: menu.sh:862
+msgid "Selecting all modules"
+msgstr "全选所有模块"
+
+#: menu.sh:873
+msgid "Deselecting all modules"
+msgstr "取消所有模块"
+
+#: menu.sh:886
+msgid "Select modules to include"
+msgstr "选择要加载的插件"
+
+#: menu.sh:892
+msgid "Writing to user config"
+msgstr "写入用户配置"
+
+#: menu.sh:913
+msgid "Edit with caution"
+msgstr "请谨慎编辑"
+
+#: menu.sh:919
+msgid "Invalid YAML format"
+msgstr "无效的YAML格式"
+
+#: menu.sh:939
+msgid "Config changed, would you like to rebuild the loader?"
+msgstr "配置已更改, 是否重新编译引导?"
+
+#: menu.sh:951 menu.sh:1201
+msgid "Choose a language"
+msgstr "选择语言"
+
+#: menu.sh:964
+msgid "Choose a layout"
+msgstr "选择布局"
+
+#: menu.sh:974
+msgid "Choice a keymap"
+msgstr "选择键盘"
+
+#: menu.sh:991 menu.sh:1000 menu.sh:1005 menu.sh:1010 menu.sh:1014 menu.sh:1020
+#: menu.sh:1026 menu.sh:1033 menu.sh:1037 menu.sh:1054
+msgid "Update arpl"
+msgstr "更新arpl"
+
+#: menu.sh:992 menu.sh:1062 menu.sh:1066 menu.sh:1070 menu.sh:1074 menu.sh:1078
+#: menu.sh:1083 menu.sh:1093
+msgid "Update addons"
+msgstr "更新插件"
+
+#: menu.sh:993 menu.sh:1098 menu.sh:1102 menu.sh:1106 menu.sh:1110 menu.sh:1114
+#: menu.sh:1119
+msgid "Update LKMs"
+msgstr "更新LKMs"
+
+#: menu.sh:994
+msgid "Update modules"
+msgstr "更新模块"
+
+#: menu.sh:1001 menu.sh:1063 menu.sh:1099 menu.sh:1136
+msgid "Checking last version"
+msgstr "检测新版本中"
+
+#: menu.sh:1006 menu.sh:1067 menu.sh:1103 menu.sh:1140
+msgid "Error checking new version"
+msgstr "检测新版本错误"
+
+#: menu.sh:1011
+msgid "No new version. Actual version is %s\\nForce update?"
+msgstr "没有新版本. 实际版本为 %s\\n强制更新?"
+
+#: menu.sh:1015
+msgid "Downloading last version %s"
+msgstr "下载新版本 %s 中"
+
+#: menu.sh:1021
+msgid "Error downloading update file"
+msgstr "下载新版本错误"
+
+#: menu.sh:1027
+msgid "Error extracting update file"
+msgstr "更新文件解压错误"
+
+#: menu.sh:1034
+msgid "Checksum do not match!"
+msgstr "Checksum不匹配!"
+
+#: menu.sh:1038
+msgid "Installing new files"
+msgstr "安装更新中"
+
+#: menu.sh:1055
+msgid "Arpl updated with success to %s!\\nReboot?"
+msgstr "Arpl更新成功 %s!\\n重启?"
+
+#: menu.sh:1071 menu.sh:1107
+msgid "Downloading last version"
+msgstr "下载新版本中"
+
+#: menu.sh:1075
+msgid "Error downloading new version"
+msgstr "下载新版本错误"
+
+#: menu.sh:1079 menu.sh:1115
+msgid "Extracting last version"
+msgstr "解压新版本"
+
+#: menu.sh:1084
+msgid "Installing new addons"
+msgstr "安装新插件中"
+
+#: menu.sh:1094
+msgid "Addons updated with success!"
+msgstr "插件更新成功!"
+
+#: menu.sh:1111
+msgid "Error downloading last version"
+msgstr "下载新版本错误"
+
+#: menu.sh:1120
+msgid "LKMs updated with success!"
+msgstr "LKMs更新成功!"
+
+#: menu.sh:1135 menu.sh:1139 menu.sh:1144 menu.sh:1148 menu.sh:1163
+msgid "Update Modules"
+msgstr "更新模块"
+
+#: menu.sh:1145
+msgid "Downloading %s modules"
+msgstr "下载 %s 模块中"
+
+#: menu.sh:1149
+msgid "Error downloading %s.tgz"
+msgstr "下载 %s.tgz 错误"
+
+#: menu.sh:1164
+msgid "Modules updated with success!"
+msgstr "模块更新成功!"
+
+#: menu.sh:1182
+msgid "Choose a model"
+msgstr "选择型号"
+
+#: menu.sh:1184
+msgid "Choose a Build Number"
+msgstr "选择版本"
+
+#: menu.sh:1185
+msgid "Choose a serial number"
+msgstr "选择SN"
+
+#: menu.sh:1187
+msgid "Addons"
+msgstr "插件"
+
+#: menu.sh:1188
+msgid "Cmdline menu"
+msgstr "设置Cmdline"
+
+#: menu.sh:1189
+msgid "Synoinfo menu"
+msgstr "设置Synoinfo"
+
+#: menu.sh:1192
+msgid "Advanced menu"
+msgstr "高级设置"
+
+#: menu.sh:1195
+msgid "Build the loader"
+msgstr "编译引导"
+
+#: menu.sh:1199
+msgid "Boot the loader"
+msgstr "启动"
+
+#: menu.sh:1202
+msgid "Choose a keymap"
+msgstr "选择键盘"
+
+#: menu.sh:1204
+msgid "Clean disk cache"
+msgstr "清除磁盘缓存"
+
+#: menu.sh:1206
+msgid "Update menu"
+msgstr "更新"
+
+#: menu.sh:1232
+msgid "Call \\033[1;32mmenu.sh\\033[0m to return to menu"
+msgstr "执行 \\033[1;32mmenu.sh\\033[0m 重新进入设置菜单"
