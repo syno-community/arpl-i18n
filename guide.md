@@ -43,7 +43,7 @@
     ```shell
     # 在 shell 中下载需要的版本或者手动上传到/opt/arpl/下
     # Download the required version in the shell or manually upload it to/opt/arpl/
-    curl -kL -o /opt/arpl/arpl.zip https://github.com/wjz304/arpl-i18n/releases/download/23.4.5/arpl-i18n-23.4.5.img.zip
+    curl -kL -o /opt/arpl/arpl.zip https://github.com/syno-community/arpl-i18n/releases/download/23.4.5/arpl-i18n-23.4.5.img.zip
     # 卸载挂载的引导盘
     # Uninstalling the mounted boot disk
     umount /mnt/p1 /mnt/p2 /mnt/p3

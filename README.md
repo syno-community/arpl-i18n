@@ -3,16 +3,16 @@
 本库为 arpl i18n (多语言优化版): 
 
 ### 原版：
-<b>https://github.com/fbelavenuto/arpl</b>
+<b>https://github.com/syno-community/arpl</b>
 * [作者说明(En)](./arpl-README-En.md)
 * [作者说明(Zh)](./arpl-README-Zh.md)
 
 ### 汉化：
-<b>https://github.com/wjz304/arpl-zh_CN</b>
+<b>https://github.com/syno-community/arpl-zh_CN</b>
 * 仅同步汉化原版, 所以功能与原版保持一致.
 
 ### i18n: 
-<b>https://github.com/wjz304/arpl-i18n</b>
+<b>https://github.com/syno-community/arpl-i18n</b>
 * 多语言支持.
 * 包含我的修改.
 
@@ -52,7 +52,7 @@
 ## 翻译
 ```shell
 sudo apt install gettext
-git clone https://github.com/wjz304/arpl-i18n.git
+git clone https://github.com/syno-community/arpl-i18n.git
 cd arpl-i18n/files/board/arpl/overlayfs/opt/arpl
 xgettext -L Shell --keyword=TEXT *.sh -o lang/arpl.pot
 sed -i 's/charset=CHARSET/charset=UTF-8/' lang/arpl.pot    # The above process has been completed.

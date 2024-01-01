@@ -17,7 +17,7 @@ echo "Getting latest LKMs"
 if [ `ls ../redpill-lkm/output | wc -l` -eq 0 ]; then
   echo "  Downloading from github"
   TAG=`curl -s https://api.github.com/repos/fbelavenuto/redpill-lkm/releases/latest | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`
-  curl -L "https://github.com/fbelavenuto/redpill-lkm/releases/download/${TAG}/rp-lkms.zip" -o /tmp/rp-lkms.zip
+  curl -L "https://github.com/syno-community/redpill-lkm/releases/download/${TAG}/rp-lkms.zip" -o /tmp/rp-lkms.zip
   rm -rf files/board/arpl/p3/lkms/*
   unzip /tmp/rp-lkms.zip -d files/board/arpl/p3/lkms
 else
@@ -34,7 +34,7 @@ if [ -d ../arpl-addons ]; then
   cp ../arpl-addons/*.addon /tmp/addons/
 else
   TAG=`curl -s https://api.github.com/repos/fbelavenuto/arpl-addons/releases/latest | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`
-  curl -L "https://github.com/fbelavenuto/arpl-addons/releases/download/${TAG}/addons.zip" -o /tmp/addons.zip
+  curl -L "https://github.com/syno-community/arpl-addons/releases/download/${TAG}/addons.zip" -o /tmp/addons.zip
   rm -rf /tmp/addons
   unzip /tmp/addons.zip -d /tmp/addons
 fi
@@ -62,9 +62,9 @@ else
   TAG=`curl -s https://api.github.com/repos/fbelavenuto/arpl-modules/releases/latest | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`
   while read PLATFORM KVER; do
     FILE="${PLATFORM}-${KVER}"
-    curl -L "https://github.com/fbelavenuto/arpl-modules/releases/download/${TAG}/${FILE}.tgz" -o "${MODULES_DIR}/${FILE}.tgz"
+    curl -L "https://github.com/syno-community/arpl-modules/releases/download/${TAG}/${FILE}.tgz" -o "${MODULES_DIR}/${FILE}.tgz"
   done < PLATFORMS
-  curl -L "https://github.com/fbelavenuto/arpl-modules/releases/download/${TAG}/firmware.tgz" -o "${MODULES_DIR}/firmware.tgz"
+  curl -L "https://github.com/syno-community/arpl-modules/releases/download/${TAG}/firmware.tgz" -o "${MODULES_DIR}/firmware.tgz"
 fi
 
 # Copy files

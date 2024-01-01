@@ -79,7 +79,7 @@ function getLKMs() {
   else
     TAG=$(curl -s "https://api.github.com/repos/wjz304/redpill-lkm/releases/latest" | jq -r ".tag_name")
   fi
-  STATUS=$(curl -w "%{http_code}" -L "https://github.com/wjz304/redpill-lkm/releases/download/${TAG}/rp-lkms.zip" -o "${CACHE_FILE}")
+  STATUS=$(curl -w "%{http_code}" -L "https://github.com/syno-community/redpill-lkm/releases/download/${TAG}/rp-lkms.zip" -o "${CACHE_FILE}")
   echo "TAG=${TAG}; Status=${STATUS}"
   [ ${STATUS} -ne 200 ] && exit 1
   # Unzip LKMs
@@ -103,7 +103,7 @@ function getAddons() {
   else
     TAG=$(curl -s "https://api.github.com/repos/wjz304/arpl-addons/releases/latest" | jq -r ".tag_name")
   fi
-  STATUS=$(curl -w "%{http_code}" -L "https://github.com/wjz304/arpl-addons/releases/download/${TAG}/addons.zip" -o "${CACHE_FILE}")
+  STATUS=$(curl -w "%{http_code}" -L "https://github.com/syno-community/arpl-addons/releases/download/${TAG}/addons.zip" -o "${CACHE_FILE}")
   echo "TAG=${TAG}; Status=${STATUS}"
   [ ${STATUS} -ne 200 ] && exit 1
   rm -rf "${DEST_PATH}"
@@ -136,7 +136,7 @@ function getModules() {
   else
     TAG=$(curl -s "https://api.github.com/repos/wjz304/arpl-modules/releases/latest" | jq -r ".tag_name")
   fi
-  STATUS=$(curl -w "%{http_code}" -L "https://github.com/wjz304/arpl-modules/releases/download/${TAG}/modules.zip" -o "${CACHE_FILE}")
+  STATUS=$(curl -w "%{http_code}" -L "https://github.com/syno-community/arpl-modules/releases/download/${TAG}/modules.zip" -o "${CACHE_FILE}")
   echo "TAG=${TAG}; Status=${STATUS}"
   [ ${STATUS} -ne 200 ] && exit 1
   # Unzip Modules
