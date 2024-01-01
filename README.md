@@ -8,7 +8,7 @@
 * [作者说明(Zh)](./arpl-README-Zh.md)
 
 ### 汉化：
-<b>https://github.com/syno-community/arpl-zh_CN</b>
+<b>https://github.com/wjz304/arpl-zh_CN</b>
 * 仅同步汉化原版, 所以功能与原版保持一致.
 
 ### i18n: 
