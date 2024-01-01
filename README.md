@@ -22,10 +22,10 @@
 * arpl各版本间切换(菜单更新, 增量):  
     ```shell
     # shell 下输入以下命令修改更新 repo. 
-    # 如果要切换原版修改第二条命令中的 wjz304/arpl-i18n 为 fbelavenuto/arpl
-    # 如果切换中文版修改第二条命令中的 wjz304/arpl-i18n 为 wjz304/arpl-zh_CN
+    # 如果要切换原版修改第二条命令中的 syno-community/arpl-i18n 为 fbelavenuto/arpl
+    # 如果切换中文版修改第二条命令中的 syno-community/arpl-i18n 为 wjz304/arpl-zh_CN
     CURREPO=`grep "github.com.*update" menu.sh | sed -r 's/.*com\/(.*)\/releases.*/\1/'`
-    sed -i "s|${CURREPO}|wjz304/arpl-i18n|g; s|ACTUALVERSION=\"v\${ARPL_VERSION}\"|ACTUALVERSION=\"v0.0\"|g" /opt/arpl/menu.sh
+    sed -i "s|${CURREPO}|syno-community/arpl-i18n|g; s|ACTUALVERSION=\"v\${ARPL_VERSION}\"|ACTUALVERSION=\"v0.0\"|g" /opt/arpl/menu.sh
     # 进入设置菜单执行更新arpl操作即可.
     # 更新后请重启.
     ```
@@ -63,6 +63,5 @@ msgfmt lang/zh_CN.po -o lang/zh_CN.mo    # This process will be automatically pr
 
 ## 打赏一下
 <img src="https://raw.githubusercontent.com/wjz304/wjz304/master/my/20220908134226.jpg" width="400">
-
 
 

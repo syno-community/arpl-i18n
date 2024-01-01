@@ -56,13 +56,13 @@
 * arpl各版本间切换(菜单更新, 增量)(arpl / arpl-zh_CN / arpl-i18n(ver < 23.4.5)):  
     ```shell
     # shell 下输入以下命令修改更新 repo. 
-    # 如果要切换原版修改第二条命令中的 wjz304/arpl-i18n 为 fbelavenuto/arpl
-    # 如果切换中文版修改第二条命令中的 wjz304/arpl-i18n 为 wjz304/arpl-zh_CN
+    # 如果要切换原版修改第二条命令中的 syno-community/arpl-i18n 为 fbelavenuto/arpl
+    # 如果切换中文版修改第二条命令中的 syno-community/arpl-i18n 为 wjz304/arpl-zh_CN
     # Enter the following command under the shell to modify and update repo
-    # If you want to switch the original version and modify wjz304/arpl-i18n to fbelavenuto/arpl in the second command.
-    # If you switch to the Chinese version and modify the wjz304/arpl-i18n to wjz304/arpl_zh_CN in the second command.
+    # If you want to switch the original version and modify syno-community/arpl-i18n to fbelavenuto/arpl in the second command.
+    # If you switch to the Chinese version and modify the syno-community/arpl-i18n to wjz304/arpl_zh_CN in the second command.
     CURREPO=`grep "github.com.*update" menu.sh | sed -r 's/.*com\/(.*)\/releases.*/\1/'`
-    sed -i "s|${CURREPO}|wjz304/arpl-i18n|g" /opt/arpl/menu.sh
+    sed -i "s|${CURREPO}|syno-community/arpl-i18n|g" /opt/arpl/menu.sh
     # 进入设置菜单执行更新arpl操作即可. 更新后请重启.
     # Simply enter the main menu and perform the update arpl operation. Please restart after the update.
     ```

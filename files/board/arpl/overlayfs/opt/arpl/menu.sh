@@ -1000,7 +1000,7 @@ function updateMenu() {
         dialog --backtitle "`backtitle`" --title "$(TEXT "Update arpl")" --aspect 18 \
           --infobox "$(TEXT "Checking last version")" 0 0
         ACTUALVERSION="v${ARPL_VERSION}"
-        TAG="`curl --insecure -s https://api.github.com/repos/wjz304/arpl-i18n/releases/latest | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`"
+        TAG="`curl --insecure -s https://api.github.com/repos/syno-community/arpl-i18n/releases/latest | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`"
         if [ $? -ne 0 -o -z "${TAG}" ]; then
           dialog --backtitle "`backtitle`" --title "$(TEXT "Update arpl")" --aspect 18 \
             --msgbox "$(TEXT "Error checking new version")" 0 0
@@ -1061,7 +1061,7 @@ function updateMenu() {
       d)
         dialog --backtitle "`backtitle`" --title "$(TEXT "Update addons")" --aspect 18 \
           --infobox "$(TEXT "Checking last version")" 0 0
-        TAG=`curl --insecure -s https://api.github.com/repos/fbelavenuto/arpl-addons/releases/latest | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`
+        TAG=`curl --insecure -s https://api.github.com/repos/syno-community/arpl-addons/releases/latest | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`
         if [ $? -ne 0 -o -z "${TAG}" ]; then
           dialog --backtitle "`backtitle`" --title "$(TEXT "Update addons")" --aspect 18 \
             --msgbox "$(TEXT "Error checking new version")" 0 0
@@ -1097,7 +1097,7 @@ function updateMenu() {
       l)
         dialog --backtitle "`backtitle`" --title "$(TEXT "Update LKMs")" --aspect 18 \
           --infobox "$(TEXT "Checking last version")" 0 0
-        TAG=`curl --insecure -s https://api.github.com/repos/fbelavenuto/redpill-lkm/releases/latest | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`
+        TAG=`curl --insecure -s https://api.github.com/repos/syno-community/redpill-lkm/releases/latest | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`
         if [ $? -ne 0 -o -z "${TAG}" ]; then
           dialog --backtitle "`backtitle`" --title "$(TEXT "Update LKMs")" --aspect 18 \
             --msgbox "$(TEXT "Error checking new version")" 0 0
@@ -1134,7 +1134,7 @@ function updateMenu() {
         done < <(find "${MODEL_CONFIG_PATH}" -maxdepth 1 -name \*.yml | sort)
         dialog --backtitle "`backtitle`" --title "$(TEXT "Update Modules")" --aspect 18 \
           --infobox "$(TEXT "Checking last version")" 0 0
-        TAG=`curl --insecure -s https://api.github.com/repos/fbelavenuto/arpl-modules/releases/latest | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`
+        TAG=`curl --insecure -s https://api.github.com/repos/syno-community/arpl-modules/releases/latest | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`
         if [ $? -ne 0 -o -z "${TAG}" ]; then
           dialog --backtitle "`backtitle`" --title "$(TEXT "Update Modules")" --aspect 18 \
             --msgbox "$(TEXT "Error checking new version")" 0 0
