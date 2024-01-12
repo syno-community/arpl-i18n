@@ -1,0 +1,893 @@
+# Russian translations for arpl-i18n package.
+# Copyright (C) 2023 THE arpl-i18n'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the arpl-i18n package.
+# Alex <TG @xpenology_russian>, 2023.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: arpl-i18n\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-10 21:25+0800\n"
+"PO-Revision-Date: 2023-04-10 21:26+0800\n"
+"Last-Translator: Alex <TG @xpenology_russian>\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: boot.sh:8 init.sh:159
+msgid "Loader is not configured!"
+msgstr "Загрузчик не настроен!"
+
+#: boot.sh:13 init.sh:43
+msgid "Welcome to %s"
+msgstr "Добро пожаловать в %s"
+
+#: boot.sh:18
+msgid "BOOTING..."
+msgstr "ЗАГРУЗКА..."
+
+#: boot.sh:24
+msgid "DSM zImage changed"
+msgstr "DSM zImage изменен"
+
+#: boot.sh:27 boot.sh:39 menu.sh:552 menu.sh:578 menu.sh:647 menu.sh:658
+#: menu.sh:687 menu.sh:697 menu.sh:704
+msgid "Error"
+msgstr "Ошибка"
+
+#: boot.sh:28 menu.sh:698
+msgid "zImage not patched:\\n"
+msgstr "zImage не запатчен:\\n"
+
+#: boot.sh:36
+msgid "DSM Ramdisk changed"
+msgstr "DSM Ramdisk изменен"
+
+#: boot.sh:40 menu.sh:705
+msgid "Ramdisk not patched:\\n"
+msgstr "Ramdisk не запатчен:\\n"
+
+#: boot.sh:52
+msgid "Model:"
+msgstr "Модель:"
+
+#: boot.sh:53
+msgid "Build:"
+msgstr "Версия:"
+
+#: boot.sh:96
+msgid "netif_num is not equal to macX amount, set netif_num to %s"
+msgstr "netif_num не равно количеству macX, установить netif_num на %s"
+
+#: boot.sh:117
+msgid "Cmdline:\\n"
+msgstr "Cmdline:\\n"
+
+#: boot.sh:121
+msgid "IP"
+msgstr "IP"
+
+#: boot.sh:139
+msgid "Reboot to boot directly in DSM"
+msgstr "Перезагрузить, чтобы загрузиться напрямую в DSM"
+
+#: boot.sh:144
+msgid "Loading DSM kernel..."
+msgstr "Загрузка ядра DSM..."
+
+#: boot.sh:148
+msgid "Warning, running kexec with --noefi param, strange things will happen!!"
+msgstr "Предупреждение, запуск kexec с параметром --noefi, могут произойти странные вещи!!"
+
+#: boot.sh:153
+msgid "Booting..."
+msgstr "Загрузка..."
+
+#: boot.sh:156
+msgid ""
+"[This interface will not be operational. Please use the http://find.synology."
+"com/ find DSM and connect.]"
+msgstr ""
+"[Этот интерфейс будет недоступен. Пожалуйста, используйте http://find.synology."
+"com/ для поиска DSM и подключения.]"
+
+#: init.sh:17 init.sh:21
+msgid "Loader disk not found!"
+msgstr "Диск загрузчика не найден!"
+
+#: init.sh:34 init.sh:35 init.sh:36
+msgid "Can't mount %s"
+msgstr "Не удается смонтировать %s"
+
+#: init.sh:104
+msgid "Setting MAC to %s"
+msgstr "Установка MAC-адреса на %s"
+
+#: init.sh:117
+msgid "Loader disk neither USB or DoM"
+msgstr "Диск загрузчика не является USB или DoM"
+
+#: init.sh:125
+msgid "Loader disk:"
+msgstr "Диск загрузчика:"
+
+#: init.sh:138
+msgid "Resizing %s"
+msgstr "Изменение размера %s"
+
+#: init.sh:149
+msgid "Loading keymap"
+msgstr "Загрузка keymap"
+
+#: init.sh:162
+msgid "User requested edit settings."
+msgstr "Пользователь запросил редактирование настроек."
+
+#: init.sh:173
+msgid "Waiting IP."
+msgstr "Ожидание IP."
+
+#: init.sh:176
+msgid "ERROR"
+msgstr "Ошибка"
+
+#: init.sh:182
+msgid ""
+"OK\\nAccess \\033[1;34mhttp://%s:7681\\033[0m to configure the loader via "
+"web terminal"
+msgstr ""
+"OK\\nПерейдите по адресу \\033[1;34mhttp://%s:7681\\033[0m, чтобы настроить "
+"загрузчик через веб-терминал"
+
+#: init.sh:191
+msgid "Call \\033[1;32mmenu.sh\\033[0m to configure loader"
+msgstr "Вызовите \\033[1;32mmenu.sh\\033[0m для настройки загрузчика"
+
+#: init.sh:193
+msgid "User config is on"
+msgstr "Пользовательская конфигурация активирована"
+
+#: init.sh:194
+msgid "Default SSH Root password is"
+msgstr "Пароль Root для SSH по умолчанию"
+
+#: init.sh:200
+msgid ""
+"You have less than 4GB of RAM, if errors occur in loader creation, please "
+"increase the amount of memory."
+msgstr ""
+"У вас менее 4 ГБ оперативной памяти. Если возникают ошибки при создании загрузчика, пожалуйста, "
+"увеличьте объем памяти."
+
+#: menu.sh:72
+msgid "Model"
+msgstr "Модель"
+
+#: menu.sh:73
+msgid "Reading models"
+msgstr "Чтение моделей"
+
+#: menu.sh:98
+msgid "Disable flags restriction"
+msgstr "Отключить ограничение флагов"
+
+#: menu.sh:99
+msgid "Show beta models"
+msgstr "Показать бета-модели"
+
+#: menu.sh:100
+msgid "Choose the model"
+msgstr "Выберите модель"
+
+#: menu.sh:138
+msgid "Choose a build number"
+msgstr "Выберите номер сборки"
+
+#: menu.sh:149 menu.sh:153
+msgid "Build Number"
+msgstr "Номер сборки"
+
+#: menu.sh:150
+msgid ""
+"This version does not support UEFI startup, Please select another version or "
+"switch the startup mode."
+msgstr ""
+"Эта версия не поддерживает запуск в режиме UEFI. Пожалуйста, выберите другую версию или "
+"переключитесь на режим запуска."
+
+#: menu.sh:154
+msgid "Reconfiguring Synoinfo, Addons and Modules"
+msgstr "Переконфигурация Synoinfo, дополнений и модулей"
+
+#: menu.sh:187 menu.sh:236 menu.sh:355 menu.sh:454 menu.sh:845 menu.sh:990
+msgid "Choose an option"
+msgstr "Выберите опцию"
+
+#: menu.sh:188
+msgid "Generate a random serial number"
+msgstr "Сгенерировать случайный серийный номер"
+
+#: menu.sh:189
+msgid "Enter a serial number"
+msgstr "Введите серийный номер"
+
+#: menu.sh:197
+msgid "Please enter a serial number"
+msgstr "Пожалуйста, введите серийный номер"
+
+#: menu.sh:206 menu.sh:938
+msgid "Alert"
+msgstr "Предупреждение"
+
+#: menu.sh:207
+msgid "Invalid serial, continue?"
+msgstr "Неверный серийный номер, продолжить?"
+
+#: menu.sh:237
+msgid "Add an addon"
+msgstr "Добавить дополнение"
+
+#: menu.sh:238
+msgid "Delete addon(s)"
+msgstr "Удалить дополнение(я)"
+
+#: menu.sh:239
+msgid "Show user addons"
+msgstr "Показать пользовательские дополнения"
+
+#: menu.sh:240
+msgid "Show all available addons"
+msgstr "Показать все доступные дополнения"
+
+#: menu.sh:241
+msgid "Download an external addon"
+msgstr "Загрузить внешнее дополнение"
+
+#: menu.sh:242 menu.sh:352 menu.sh:450 menu.sh:735 menu.sh:850 menu.sh:995
+#: menu.sh:1207
+msgid "Exit"
+msgstr "Выход"
+
+#: menu.sh:253
+msgid "No available addons to add"
+msgstr "Нет доступных дополнений для добавления"
+
+#: menu.sh:257
+msgid "Select an addon"
+msgstr "Выберите дополнение"
+
+#: menu.sh:262
+msgid "Params"
+msgstr "Параметры"
+
+#: menu.sh:263
+msgid "Type a opcional params to addon"
+msgstr "Введите дополнительные параметры для дополнения"
+
+#: menu.sh:272
+msgid "No user addons to remove"
+msgstr "Нет пользовательских дополнений для удаления"
+
+#: menu.sh:280
+msgid "Select addon to remove"
+msgstr "Выберите дополнение для удаления"
+
+#: menu.sh:296
+msgid "User addons"
+msgstr "Пользовательские дополнения"
+
+#: menu.sh:309
+msgid "Available addons"
+msgstr "Доступные дополнения"
+
+#: menu.sh:313
+msgid "please enter the complete URL to download.\\n"
+msgstr "пожалуйста, введите полный URL для загрузки.\\n"
+
+#: menu.sh:319 menu.sh:534
+msgid "Downloading %s"
+msgstr "Загрузка %s"
+
+#: menu.sh:322 menu.sh:544 menu.sh:607
+msgid "Error downloading"
+msgstr "Ошибка загрузки"
+
+#: menu.sh:323
+msgid "Check internet, URL or cache disk space"
+msgstr "Проверьте интернет, URL или свободное место на диске"
+
+#: menu.sh:328
+msgid "Success"
+msgstr "Успех"
+
+#: menu.sh:329
+msgid "Addon '%s' added to loader"
+msgstr "Дополнение '%s' добавлено в загрузчик"
+
+#: menu.sh:331
+msgid "Invalid addon"
+msgstr "Недопустимое дополнение"
+
+#: menu.sh:332
+msgid "File format not recognized!"
+msgstr "Формат файла не распознан!"
+
+#: menu.sh:347
+msgid "Add/edit a cmdline item"
+msgstr "Добавить/редактировать параметр cmdline"
+
+#: menu.sh:348
+msgid "Delete cmdline item(s)"
+msgstr "Удалить параметр(ы) cmdline"
+
+#: menu.sh:349
+msgid "Define a custom MAC"
+msgstr "Задать пользовательский MAC"
+
+#: menu.sh:350
+msgid "Show user cmdline"
+msgstr "Показать параметры cmdline пользователя"
+
+#: menu.sh:351
+msgid "Show model/build cmdline"
+msgstr "Показать параметры cmdline модели/сборки"
+
+#: menu.sh:360 menu.sh:366 menu.sh:396 menu.sh:404 menu.sh:412 menu.sh:414
+#: menu.sh:422
+msgid "User cmdline"
+msgstr "Параметры cmdline пользователя"
+
+#: menu.sh:361
+msgid "Type a name of cmdline"
+msgstr "Введите имя параметра cmdline"
+
+#: menu.sh:367
+msgid "Type a value of '%s' cmdline"
+msgstr "Введите значение параметра '%s' cmdline"
+
+#: menu.sh:376
+msgid "No user cmdline to remove"
+msgstr "Нет параметров cmdline для удаления"
+
+#: menu.sh:384
+msgid "Select cmdline to remove"
+msgstr "Выберите параметр cmdline для удаления"
+
+#: menu.sh:397
+msgid "Type a custom MAC address"
+msgstr "Введите пользовательский MAC-адрес"
+
+#: menu.sh:257
+msgid "Select an addon"
+msgstr "Выберите дополнение"
+
+#: menu.sh:262
+msgid "Params"
+msgstr "Параметры"
+
+#: menu.sh:263
+msgid "Type a opcional params to addon"
+msgstr "Введите дополнительные параметры для дополнения"
+
+#: menu.sh:272
+msgid "No user addons to remove"
+msgstr "Нет пользовательских дополнений для удаления"
+
+#: menu.sh:280
+msgid "Select addon to remove"
+msgstr "Выберите дополнение для удаления"
+
+#: menu.sh:296
+msgid "User addons"
+msgstr "Пользовательские дополнения"
+
+#: menu.sh:309
+msgid "Available addons"
+msgstr "Доступные дополнения"
+
+#: menu.sh:313
+msgid "please enter the complete URL to download.\\n"
+msgstr "пожалуйста, введите полный URL для загрузки.\\n"
+
+#: menu.sh:319 menu.sh:534
+msgid "Downloading %s"
+msgstr "Загрузка %s"
+
+#: menu.sh:322 menu.sh:544 menu.sh:607
+msgid "Error downloading"
+msgstr "Ошибка загрузки"
+
+#: menu.sh:323
+msgid "Check internet, URL or cache disk space"
+msgstr "Проверьте интернет, URL или свободное место на диске"
+
+#: menu.sh:328
+msgid "Success"
+msgstr "Успех"
+
+#: menu.sh:329
+msgid "Addon '%s' added to loader"
+msgstr "Дополнение '%s' добавлено в загрузчик"
+
+#: menu.sh:331
+msgid "Invalid addon"
+msgstr "Недопустимое дополнение"
+
+#: menu.sh:332
+msgid "File format not recognized!"
+msgstr "Формат файла не распознан!"
+
+#: menu.sh:347
+msgid "Add/edit a cmdline item"
+msgstr "Добавить/редактировать параметр cmdline"
+
+#: menu.sh:348
+msgid "Delete cmdline item(s)"
+msgstr "Удалить параметр(ы) cmdline"
+
+#: menu.sh:349
+msgid "Define a custom MAC"
+msgstr "Задать пользовательский MAC"
+
+#: menu.sh:350
+msgid "Show user cmdline"
+msgstr "Показать параметры cmdline пользователя"
+
+#: menu.sh:351
+msgid "Show model/build cmdline"
+msgstr "Показать параметры cmdline модели/сборки"
+
+#: menu.sh:360 menu.sh:366 menu.sh:396 menu.sh:404 menu.sh:412 menu.sh:414
+#: menu.sh:422
+msgid "User cmdline"
+msgstr "Параметры cmdline пользователя"
+
+#: menu.sh:361
+msgid "Type a name of cmdline"
+msgstr "Введите имя параметра cmdline"
+
+#: menu.sh:367
+msgid "Type a value of '%s' cmdline"
+msgstr "Введите значение параметра '%s' cmdline"
+
+#: menu.sh:376
+msgid "No user cmdline to remove"
+msgstr "Нет параметров cmdline для удаления"
+
+#: menu.sh:384
+msgid "Select cmdline to remove"
+msgstr "Выберите параметр cmdline для удаления"
+
+#: menu.sh:397
+msgid "Type a custom MAC address"
+msgstr "Введите пользовательский MAC-адрес"
+
+#: menu.sh:404
+msgid "Invalid MAC"
+msgstr "Неверный MAC"
+
+#: menu.sh:412
+msgid "Changing MAC"
+msgstr "Изменение MAC"
+
+#: menu.sh:414
+msgid "Renewing IP"
+msgstr "Обновление IP"
+
+#: menu.sh:430
+msgid "Model/build cmdline"
+msgstr "Модель/сборка cmdline"
+
+#: menu.sh:447
+msgid "Add/edit a synoinfo item"
+msgstr "Добавить/редактировать элемент synoinfo"
+
+#: menu.sh:448
+msgid "Delete synoinfo item(s)"
+msgstr "Удалить элемент(ы) synoinfo"
+
+#: menu.sh:449
+msgid "Show synoinfo entries"
+msgstr "Показать записи synoinfo"
+
+#: menu.sh:459 menu.sh:465 menu.sh:500
+msgid "Synoinfo entries"
+msgstr "Записи synoinfo"
+
+#: menu.sh:460
+msgid "Type a name of synoinfo entry"
+msgstr "Введите имя записи synoinfo"
+
+#: menu.sh:466
+msgid "Type a value of '%s' synoinfo entry"
+msgstr "Введите значение записи '%s' synoinfo"
+
+#: menu.sh:476
+msgid "No synoinfo entries to remove"
+msgstr "Нет записей synoinfo для удаления"
+
+#: menu.sh:484
+msgid "Select synoinfo entry to remove"
+msgstr "Выберите запись synoinfo для удаления"
+
+#: menu.sh:525
+msgid "%s cached."
+msgstr "%s кэширован."
+
+#: menu.sh:529
+msgid "Cleaning cache"
+msgstr "Очистка кэша"
+
+#: menu.sh:545 menu.sh:608
+msgid "Check internet or cache disk space"
+msgstr "Проверьте интернет или свободное место на диске"
+
+#: menu.sh:550
+msgid "Checking hash of %s: "
+msgstr "Проверка хеша %s: "
+
+#: menu.sh:553
+msgid "Hash of pat not match, try again!"
+msgstr "Хеш pat не совпадает, попробуйте еще раз!"
+
+#: menu.sh:557 menu.sh:651 menu.sh:662 menu.sh:673
+msgid "OK"
+msgstr "OK"
+
+#: menu.sh:561
+msgid "Disassembling %s: "
+msgstr "Разборка %s: "
+
+#: menu.sh:566
+msgid "Uncompressed tar"
+msgstr "Несжатый tar"
+
+#: menu.sh:570
+msgid "Compressed tar"
+msgstr "Сжатый tar"
+
+#: menu.sh:574
+msgid "Encrypted"
+msgstr "Зашифрован"
+
+#: menu.sh:579
+msgid ""
+"Could not determine if pat file is encrypted or not, maybe corrupted, try "
+"again!"
+msgstr ""
+"Не удалось определить, зашифрован ли файл pat или нет, возможно, он поврежден, "
+"попробуйте еще раз!"
+
+#: menu.sh:590
+msgid "Extractor cached."
+msgstr "Извлекатель кэширован."
+
+#: menu.sh:597
+msgid "Downloading old pat to extract synology .pat extractor..."
+msgstr "Загрузка старого pat для извлечения synology .pat извлекателя..."
+
+#: menu.sh:619 menu.sh:639
+msgid "Error extracting"
+msgstr "Ошибка извлечения"
+
+#: menu.sh:633 menu.sh:636
+msgid "Extracting..."
+msgstr "Извлечение..."
+
+#: menu.sh:643
+msgid "Checking hash of zImage: "
+msgstr "Проверка хеша zImage: "
+
+#: menu.sh:648
+msgid "Hash of zImage not match, try again!"
+msgstr "Хеш zImage не совпадает, попробуйте еще раз!"
+
+#: menu.sh:654
+msgid "Checking hash of ramdisk: "
+msgstr "Проверка хеша ramdisk: "
+
+#: menu.sh:659
+msgid "Hash of ramdisk not match, try again!"
+msgstr "Хеш ramdisk не совпадает, попробуйте еще раз!"
+
+#: menu.sh:665
+msgid "Copying files: "
+msgstr "Копирование файлов: "
+
+#: menu.sh:688
+msgid "Addon %s not found!"
+msgstr "Дополнение %s не найдено!"
+
+#: menu.sh:709 menu.sh:1225
+msgid "Cleaning"
+msgstr "Очистка"
+
+#: menu.sh:712
+msgid "Ready!"
+msgstr "Готово!"
+
+#: menu.sh:725
+msgid "Switch LKM version:"
+msgstr "Переключить версию LKM:"
+
+#: menu.sh:726 menu.sh:835 menu.sh:861 menu.sh:872 menu.sh:885 menu.sh:891
+msgid "Modules"
+msgstr "Модули"
+
+#: menu.sh:729
+msgid "Switch direct boot:"
+msgstr "Переключить прямую загрузку:"
+
+#: menu.sh:731
+msgid "Edit user config file manually"
+msgstr "Редактировать файл конфигурации пользователя вручную"
+
+#: menu.sh:732
+msgid "Try to recovery a DSM installed system"
+msgstr "Попробовать восстановить установленную систему DSM"
+
+#: menu.sh:733
+msgid "Show SATA(s) # ports and drives"
+msgstr "Показать SATA(s) # порты и диски"
+
+#: menu.sh:734
+msgid "Custom dts location:/mnt/p1/model.dts # Need rebuild"
+msgstr "Пользовательское расположение dts:/mnt/p1/model.dts # Нужна пересборка"
+
+#: menu.sh:737
+msgid "Advanced"
+msgstr "Расширенные"
+
+#: menu.sh:738 menu.sh:1210
+msgid "Choose the option"
+msgstr "Выберите опцию"
+
+#: menu.sh:777
+msgid "\\nTotal of ports: %s\\n"
+msgstr "\\nВсего портов: %s\\n"
+
+#: menu.sh:778
+msgid ""
+"\\nPorts with color \\Z1red\\Zn as DUMMY, color \\Z2\\Zbgreen\\Zn has drive "
+"connected."
+msgstr ""
+"\\nПорты с цветом \\Z1красный\\Zn как DUMMY, цвет \\Z2\\Zbзеленый\\Zn имеет "
+"подключенный диск."
+
+#: menu.sh:790 menu.sh:818 menu.sh:825
+msgid "Try recovery DSM"
+msgstr "Попробовать восстановить DSM"
+
+#: menu.sh:791
+msgid "Trying to recovery a DSM installed system"
+msgstr "Пытаюсь восстановить установленную систему DSM"
+
+#: menu.sh:812
+msgid "Found a installation:\\nModel: %s\\nBuildnumber: %s"
+msgstr "Найдена установка:\\nМодель: %s\\nНомер сборки: %s"
+
+#: menu.sh:816
+msgid "\\nSerial: %s"
+msgstr "\\nСерийный номер: %s"
+
+#: menu.sh:826
+msgid "Unfortunately I couldn't mount the DSM partition!"
+msgstr "К сожалению, я не смог примонтировать раздел DSM!"
+
+#: menu.sh:836
+msgid "Reading modules"
+msgstr "Чтение модулей"
+
+#: menu.sh:846
+msgid "Show selected modules"
+msgstr "Показать выбранные модули"
+
+#: menu.sh:847
+msgid "Select all modules"
+msgstr "Выбрать все модули"
+
+#: menu.sh:848
+msgid "Deselect all modules"
+msgstr "Снять выбор со всех модулей"
+
+#: menu.sh:849
+msgid "Choose modules to include"
+msgstr "Выберите модули для включения"
+
+#: menu.sh:858
+msgid "User modules"
+msgstr "Пользовательские модули"
+
+#: menu.sh:862
+msgid "Selecting all modules"
+msgstr "Выбор всех модулей"
+
+#: menu.sh:873
+msgid "Deselecting all modules"
+msgstr "Снятие выбора со всех модулей"
+
+#: menu.sh:886
+msgid "Select modules to include"
+msgstr "Выберите модули для включения"
+
+#: menu.sh:892
+msgid "Writing to user config"
+msgstr "Запись в конфигурацию пользователя"
+
+#: menu.sh:913
+msgid "Edit with caution"
+msgstr "Редактируйте с осторожностью"
+
+#: menu.sh:919
+msgid "Invalid YAML format"
+msgstr "Неверный формат YAML"
+
+#: menu.sh:939
+msgid "Config changed, would you like to rebuild the loader?"
+msgstr "Конфигурация изменена, хотите пересобрать загрузчик?"
+
+#: menu.sh:951 menu.sh:1201
+msgid "Choose a language"
+msgstr "Выберите язык"
+
+#: menu.sh:964
+msgid "Choose a layout"
+msgstr "Выберите раскладку"
+
+#: menu.sh:974
+msgid "Choice a keymap"
+msgstr "Выберите раскладку клавиатуры"
+
+#: menu.sh:991 menu.sh:1000 menu.sh:1005 menu.sh:1010 menu.sh:1014 menu.sh:1020
+#: menu.sh:1026 menu.sh:1033 menu.sh:1037 menu.sh:1054
+msgid "Update arpl"
+msgstr "Обновить arpl"
+
+#: menu.sh:992 menu.sh:1062 menu.sh:1066 menu.sh:1070 menu.sh:1074 menu.sh:1078
+#: menu.sh:1083 menu.sh:1093
+msgid "Update addons"
+msgstr "Обновить дополнения"
+
+#: menu.sh:993 menu.sh:1098 menu.sh:1102 menu.sh:1106 menu.sh:1110 menu.sh:1114
+#: menu.sh:1119
+msgid "Update LKMs"
+msgstr "Обновить LKMs"
+
+#: menu.sh:994
+msgid "Update modules"
+msgstr "Обновить модули"
+
+#: menu.sh:1001 menu.sh:1063 menu.sh:1099 menu.sh:1136
+msgid "Checking last version"
+msgstr "Проверка последней версии"
+
+#: menu.sh:1006 menu.sh:1067 menu.sh:1103 menu.sh:1140
+msgid "Error checking new version"
+msgstr "Ошибка проверки новой версии"
+
+#: menu.sh:1011
+msgid "No new version. Actual version is %s\\nForce update?"
+msgstr "Нет новой версии. Актуальная версия %s\\nПринудительное обновление?"
+
+#: menu.sh:1015
+msgid "Downloading last version %s"
+msgstr "Загрузка последней версии %s"
+
+#: menu.sh:1021
+msgid "Error downloading update file"
+msgstr "Ошибка загрузки файла обновления"
+
+#: menu.sh:1027
+msgid "Error extracting update file"
+msgstr "Ошибка извлечения файла обновления"
+
+#: menu.sh:1034
+msgid "Checksum do not match!"
+msgstr "Контрольные суммы не совпадают!"
+
+#: menu.sh:1038
+msgid "Installing new files"
+msgstr "Установка новых файлов"
+
+#: menu.sh:1055
+msgid "Arpl updated with success to %s!\\nReboot?"
+msgstr "Arpl успешно обновлен до %s!\\nПерезагрузить?"
+
+#: menu.sh:1071 menu.sh:1107
+msgid "Downloading last version"
+msgstr "Загрузка последней версии"
+
+#: menu.sh:1075
+msgid "Error downloading new version"
+msgstr "Ошибка загрузки новой версии"
+
+#: menu.sh:1079 menu.sh:1115
+msgid "Extracting last version"
+msgstr "Извлечение последней версии"
+
+#: menu.sh:1084
+msgid "Installing new addons"
+msgstr "Установка новых дополнений"
+
+#: menu.sh:1094
+msgid "Addons updated with success!"
+msgstr "Дополнения успешно обновлены!"
+
+#: menu.sh:1111
+msgid "Error downloading last version"
+msgstr "Ошибка загрузки последней версии"
+
+#: menu.sh:1120
+msgid "LKMs updated with success!"
+msgstr "LKMs успешно обновлены!"
+
+#: menu.sh:1135 menu.sh:1139 menu.sh:1144 menu.sh:1148 menu.sh:1163
+msgid "Update Modules"
+msgstr "Обновить модули"
+
+#: menu.sh:1145
+msgid "Downloading %s modules"
+msgstr "Загрузка %s модулей"
+
+#: menu.sh:1149
+msgid "Error downloading %s.tgz"
+msgstr "Ошибка загрузки %s.tgz"
+
+#: menu.sh:1164
+msgid "Modules updated with success!"
+msgstr "Модули успешно обновлены!"
+
+#: menu.sh:1182
+msgid "Choose a model"
+msgstr "Выберите модель"
+
+#: menu.sh:1184
+msgid "Choose a Build Number"
+msgstr "Выберите номер сборки"
+
+#: menu.sh:1185
+msgid "Choose a serial number"
+msgstr "Выберите серийный номер"
+
+#: menu.sh:1187
+msgid "Addons"
+msgstr "Дополнения"
+
+#: menu.sh:1188
+msgid "Cmdline menu"
+msgstr "Меню cmdline"
+
+#: menu.sh:1189
+msgid "Synoinfo menu"
+msgstr "Меню synoinfo"
+
+#: menu.sh:1192
+msgid "Advanced menu"
+msgstr "Расширенное меню"
+
+#: menu.sh:1195
+msgid "Build the loader"
+msgstr "Собрать загрузчик"
+
+#: menu.sh:1199
+msgid "Boot the loader"
+msgstr "Загрузить загрузчик"
+
+#: menu.sh:1202
+msgid "Choose a keymap"
+msgstr "Выберите раскладку клавиатуры"
+
+#: menu.sh:1204
+msgid "Clean disk cache"
+msgstr "Очистить дисковый кэш"
+
+#: menu.sh:1206
+msgid "Update menu"
+msgstr "Меню обновления"
+
+#: menu.sh:1232
+msgid "Call \\033[1;32mmenu.sh\\033[0m to return to menu"
+msgstr "Вызовите \\033[1;32mmenu.sh\\033[0m, чтобы вернуться в меню"
+
